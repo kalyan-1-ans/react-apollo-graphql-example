@@ -8,7 +8,7 @@ import {
   IconButton,
   Typography,
 } from "@material-tailwind/react";
-import { sprintStartWarningDialog } from "../state/ui-dialog";
+import { sprintStartWarningDialog } from "./design-system/dialog";
 
 export function SprintStartWarningDialog() {
   const { isOpen, closeDialog } = sprintStartWarningDialog.useDialogState();

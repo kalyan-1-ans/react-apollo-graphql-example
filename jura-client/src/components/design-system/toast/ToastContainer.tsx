@@ -1,4 +1,4 @@
-import { useToastState } from "../../state/ui-toast";
+import { useToastState } from "./atoms";
 import { Toast } from "./Toast";
 
 export const ToastContainer = () => {

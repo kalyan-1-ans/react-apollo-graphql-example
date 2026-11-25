@@ -9,7 +9,7 @@ import { useParams } from 'react-router';
 import { useUpdateIssueOrderMutation } from '../state/issue';
 import { useActiveSprintQuery } from '../state/sprint';
 import { useCompleteSprintMutation, useStartSprintMutation } from '../state/sprint/mutations';
-import { sprintCompleteWarningDialog, sprintStartWarningDialog } from '../state/ui-dialog';
+import { sprintCompleteWarningDialog, sprintStartWarningDialog } from './design-system/dialog';
 import { SprintIssueSortableItem } from './SprintIssueSortableItem';
 
 interface SprintContainerProps {

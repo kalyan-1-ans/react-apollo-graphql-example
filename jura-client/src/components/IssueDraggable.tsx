@@ -4,7 +4,7 @@ import { Issue } from "@generated/graphql";
 import { Typography } from "@material-tailwind/react";
 import Avatar from "react-avatar";
 import { ISSUE_TYPE_COLOR } from "../utils/constants";
-import { issueDialog } from "../state/ui-dialog";
+import { issueDialog } from "./design-system/dialog";
 
 export interface IssueDraggableProps {
   issue: Issue;

@@ -5,7 +5,7 @@ import { useGqlErrorHandler } from "../hooks/useGqlErrorHandler";
 import { useAuthState } from "../state/auth";
 import { MainNav } from "./MainNav";
 import { SideNav } from "./SideNav";
-import { ToastContainer } from "../components/design-system/ToastContainer";
+import { ToastContainer } from "../components/design-system/toast";
 
 interface ProtectedTemplateProps extends PropsWithChildren {
   withSideNav?: boolean;

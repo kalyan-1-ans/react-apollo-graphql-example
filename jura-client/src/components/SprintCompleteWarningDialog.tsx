@@ -7,7 +7,7 @@ import {
   IconButton,
   Typography,
 } from "@material-tailwind/react";
-import { sprintCompleteWarningDialog } from "../state/ui-dialog";
+import { sprintCompleteWarningDialog } from "./design-system/dialog";
 import { ExclamationCircleIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export function SprintCompleteWarningDialog() {

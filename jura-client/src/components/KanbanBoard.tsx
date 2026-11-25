@@ -21,7 +21,7 @@ import { Link, useNavigate, useParams } from 'react-router';
 import { useUpdateIssueCache, useUpdateIssueMutation } from '../state/issue';
 import { useProjectQuery } from '../state/project';
 import { useCompleteSprintMutation } from '../state/sprint/mutations';
-import { issueDialog, sprintCompleteWarningDialog } from '../state/ui-dialog';
+import { issueDialog, sprintCompleteWarningDialog } from './design-system/dialog';
 import { IssueDraggable } from './IssueDraggable';
 
 const COLUMNS = [

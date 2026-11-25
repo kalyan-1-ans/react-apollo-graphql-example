@@ -1,13 +1,13 @@
 import { Typography } from "@material-tailwind/react";
 import { useEffect } from "react";
 import ProjectList from "../components/ProjectList";
-import { useUIPreferenceState } from "../state/ui-preference";
+import { usePreferenceState } from "../state/preference";
 import { useCurrentUserQuery } from "../state/user";
 import { ProtectedTemplate } from "../templates/ProtectedTemplate";
 
 export const DashboardPage = () => {
   const { data, loading } = useCurrentUserQuery();
-  const { setLastVisitedProjectId } = useUIPreferenceState();
+  const { setLastVisitedProjectId } = usePreferenceState();
 
   useEffect(() => {
     setLastVisitedProjectId("");

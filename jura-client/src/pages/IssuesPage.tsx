@@ -6,7 +6,7 @@ import { SprintContainerSkeleton } from "../components/SprintContainerSkeleton";
 import { useBacklogIssuesQuery } from "../state/issue";
 import { useProjectQuery } from "../state/project";
 import { useCompletedSprintsQuery, useUnCompletedSprintsQuery } from "../state/sprint";
-import { issueDialog, sprintDialog } from "../state/ui-dialog";
+import { issueDialog, sprintDialog } from "../components/design-system/dialog";
 
 export const IssuesPage = () => {
   const { projectId = "" } = useParams();

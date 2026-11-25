@@ -4,11 +4,11 @@ import { SprintCompleteWarningDialog } from "../components/SprintCompleteWarning
 import { SprintCreateDialog } from "../components/SprintCreateDialog";
 import { SprintStartWarningDialog } from "../components/SprintStartWarningDialog";
 import { ProtectedTemplate } from "../templates/ProtectedTemplate";
-import { useUIPreferenceState } from "../state/ui-preference";
+import { usePreferenceState } from "../state/preference";
 import { useEffect } from "react";
 
 export const ProjectPage = () => {
-  const { setLastVisitedProjectId } = useUIPreferenceState();
+  const { setLastVisitedProjectId } = usePreferenceState();
   const { projectId } = useParams();
 
   useEffect(() => {

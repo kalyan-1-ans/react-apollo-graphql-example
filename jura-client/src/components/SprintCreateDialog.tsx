@@ -15,7 +15,7 @@ import { useParams } from "react-router";
 import * as yup from "yup";
 import { useCreateSprintMutation } from "../state/sprint/mutations";
 import DatePicker from "./design-system/DatePicker";
-import { sprintDialog } from "../state/ui-dialog";
+import { sprintDialog } from "./design-system/dialog";
 
 const schema = yup.object({
   name: yup.string().required("Name is required"),

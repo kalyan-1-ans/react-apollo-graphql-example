@@ -9,7 +9,7 @@ import {
   UpdateSprintMutationVariables
 } from '@generated/graphql';
 import { useParams } from 'react-router';
-import { sprintDialog } from '../ui-dialog';
+import { sprintDialog } from '../../components/design-system/dialog';
 import { SPRINTS_QUERY } from './queries';
 import { useCallback } from 'react';
 import { SprintFragment } from '../../fragments/sprint.fragment';

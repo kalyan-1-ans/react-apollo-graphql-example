@@ -20,7 +20,7 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
-import { issueDialog } from '../state/ui-dialog';
+import { issueDialog } from './design-system/dialog';
 import { useUsersQuery } from '../state/user';
 import { ISSUE_TYPE_COLOR } from '../utils/constants';
 import { Divider } from './design-system/Divider';

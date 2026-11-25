@@ -1,6 +1,6 @@
 import { Alert } from "@material-tailwind/react";
 import { useEffect } from "react";
-import { useToastState } from "../../state/ui-toast";
+import { useToastState } from "./atoms";
 
 export const Toast = ({ message, id }: { message: string; id: string }) => {
   const { removeToast } = useToastState();

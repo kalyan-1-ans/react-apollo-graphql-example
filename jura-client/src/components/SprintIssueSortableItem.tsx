@@ -1,5 +1,5 @@
 import { Issue } from '@generated/graphql';
-import { issueDialog } from '../state/ui-dialog';
+import { issueDialog } from './design-system/dialog';
 import { ISSUE_TYPE_COLOR } from '../utils/constants';
 import { Typography } from '@material-tailwind/react';
 import Avatar from 'react-avatar';

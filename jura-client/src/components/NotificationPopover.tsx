@@ -11,7 +11,7 @@ import {
 import { useAtom } from "jotai";
 import React from "react";
 import { useNotificationsQuery, useReadNotificationMutation } from "../state/notification";
-import { notificationPopoverAtom } from "../state/ui-popover";
+import { notificationPopoverAtom } from "./design-system/popover";
 import cx from "classnames";
 
 interface NotificationPopoverProps {
