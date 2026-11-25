@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Jura Apollo GraphQL</title>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2" />
+  <path d="M24 13h24v22c0 11-6 17-16 17S16 46 16 36h10c0 4 2 7 6 7s6-3 6-8V22H24z" fill="#4c1d95" />
+</svg>
